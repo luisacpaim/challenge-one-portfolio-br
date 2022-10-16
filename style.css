@@ -36,42 +36,185 @@ Isso torna o desenvolvimento de interface fácil e rápido, mesmo com uma interf
 de usuário complexa, e permite a reutilização de código existente sem copiar e colar.
 
 Link da documentação oficial!
-https://en.bem.info/methodology/quick-start/*/
+https://en.bem.info/methodology/quick-start/ */
+
+.all {
+}
 
 /*Sessão Menu*/
 
-section.menu{
+.menu {    /* section pain */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
 
+    background-color: blue;
+}
+.menu header {
+    display: flex;
+    align-items: center;
+}
+.menu header img {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+.menu nav {
+    width: 50%;
+}
+.menu__list {
+    display: flex;
+    justify-content: space-around;
 }
 
 /*Sessão Title*/
 
-section.title{
+.title {
+    background-color: brown;
+    width: 100%;
+}
+.title__div {
+    padding-top: 2em;
+    padding-bottom: 2em;
+    width: 82%;
+    margin: 0 auto;
+
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
 
 }
+.title__profile {
+    width: 30%;
+}
+.title__container {
+    width: 70%;
+}
+.title__bio {
+    width: 85%;
+    font-size: 45px;
+}
+.title__network {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    padding-left: 0;
+}
+
 
 /*Sessão About*/
 
-section.about{
-
+.about {
+    background-color: yellowgreen;
+    padding: 2em;
+    width: 100%;
+}
+.about__title {
+    font-size: 32px;
+}
+.about__container {
+    margin-left: 5.5em;
+    width: 50%;
 }
 
 /*Sessão Hobbies*/
 
-section.hobbies{
-    
+.skills, .hobbies {
+    background-color: blueviolet;
+    padding: 1em;
+
+    display: flex;
+    flex-direction: column;
+}
+.skills__title, .hobbies__title, .academic__title, .experience__section__title {
+    text-align: center;
+    font-size: 32px;
+}
+.skills__line, .hobbies__line {
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    margin: 0 auto;
+}
+.skills__box, .hobbies__box {
+    background-color: #FFFFFF;
+
+    width: 140px;
+    height: 140px;
+
+    display: flex;
+    align-items: flex-end;
+    justify-content: left;
+}
+.skills__box ul, .hobbies__box ul {
+    padding-left: 15px;
+}
+.skills__name, .hobbies__name {
+    margin-top: 5px;
+    font-size: 16px;
 }
 
 /* Experiência Acadêmica*/
 
-section.academic{
+.academic {
+    background-color: chocolate;
 
+    padding: 1em;
+}
+.academic__courses {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+.academic__courses__box {
+    height: 280px;
+    width: 300px;
+}
+.academic__courses__list {
+    padding-left: 0;
+    margin: 0;
+    text-align: center;
+}
+.academic__courses__list img {
+    width: 250px;
+    height: 200px;
 }
 
 /* experiência*/
 
-section.experience{
+.experience {
+    background-color: violet;
 
+    padding-top: 1em;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+}
+.experiencie__box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    width: 95%;
+    margin: 1em auto;
+}
+.experiencie__box:nth-child(2n+1) {
+    flex-direction: row-reverse;
+    margin-top: 2em;
+}
+.experience__img {
+    width: 700px;
+    height: 500px;
+}
+.experience__title {
+    font-size: 22px;
+}
+.experience__text {
+    font-size: 16px;
 }
 
 /*Contato*/
