@@ -7,6 +7,7 @@ coloque nas sessões indicadas*/
     /*Se esforce para trabalhar com variáveis, é uma dica profissional valiosa*/
    --cor-de-fundo: #F5F5F5;
    --cor-de-link: #000;
+   --botao: #2A7AE4;
 }
 
 body {
@@ -210,12 +211,33 @@ https://en.bem.info/methodology/quick-start/ */
     width: 700px;
     height: 500px;
 }
+.experience__info {
+    width: 30%;
+}
 .experience__title {
     font-size: 22px;
 }
 .experience__text {
     font-size: 16px;
 }
+.experiencia__botao--repo {
+    width: 116px;
+    height: 51px;
+
+    border: 1px solid var(--botao);
+    color: var(--botao);
+    background-color: var(--cor-de-fundo);
+}
+.experiencia__botao--demo {
+    width: 105px;
+    height: 51px;
+
+    background-color: var(--botao);
+    border: none;
+    color: #FFFFFF;
+}
+
+
 
 /*Contato*/
 
