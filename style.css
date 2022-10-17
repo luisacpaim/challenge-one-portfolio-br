@@ -39,7 +39,8 @@ de usuário complexa, e permite a reutilização de código existente sem copiar
 Link da documentação oficial!
 https://en.bem.info/methodology/quick-start/ */
 
-.all {
+.about, .academic, .formcontato {
+    background-color: #EAF2FD;
 }
 
 /*Sessão Menu*/
@@ -50,7 +51,7 @@ https://en.bem.info/methodology/quick-start/ */
     align-items: center;
     width: 100%;
 
-    background-color: blue;
+    /* background-color: ; */
 }
 .menu header {
     display: flex;
@@ -72,7 +73,6 @@ https://en.bem.info/methodology/quick-start/ */
 /*Sessão Title*/
 
 .title {
-    background-color: brown;
     width: 100%;
 }
 .title__div {
@@ -107,7 +107,6 @@ https://en.bem.info/methodology/quick-start/ */
 /*Sessão About*/
 
 .about {
-    background-color: yellowgreen;
     padding: 2em;
     width: 100%;
 }
@@ -122,7 +121,7 @@ https://en.bem.info/methodology/quick-start/ */
 /*Sessão Hobbies*/
 
 .skills, .hobbies {
-    background-color: blueviolet;
+    /* background-color: ; */
     padding: 1em;
 
     display: flex;
@@ -159,9 +158,9 @@ https://en.bem.info/methodology/quick-start/ */
 /* Experiência Acadêmica*/
 
 .academic {
-    background-color: chocolate;
-
-    padding: 1em;
+    width: 100%;
+    padding-top: 2em;
+    padding-bottom: 2em;
 }
 .academic__courses {
     display: flex;
@@ -187,7 +186,7 @@ https://en.bem.info/methodology/quick-start/ */
 /* experiência*/
 
 .experience {
-    background-color: violet;
+    /* background-color: ; */
 
     padding-top: 1em;
     width: 100%;
@@ -240,11 +239,12 @@ https://en.bem.info/methodology/quick-start/ */
 /*Contato*/
 
 .formcontato {
-    background-color: tomato;
+    width: 100%;
 }
 .formcontato__contacto {
-    padding-top: 1em;
-    width: 90%;
+    padding-top: 5em;
+    padding-bottom: 3em;
+    width: 85%;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -256,7 +256,7 @@ https://en.bem.info/methodology/quick-start/ */
 .formcontato__text {
     display: flex;
     flex-direction: column;
-    width: 60%;
+    width: 58%;
 }
 .formcontato__title, .formcontato__subtext {
     color: #464646;
@@ -297,8 +297,9 @@ https://en.bem.info/methodology/quick-start/ */
 
 /*footeer*/
 
-section.footer{
-   
+.footer__rodape {
+    padding-top: 2em;
+    text-align: center;
 }
 
 /* Chegou a hora de se desafiar com a responsividade, 
