@@ -200,7 +200,7 @@ https://en.bem.info/methodology/quick-start/ */
     justify-content: space-around;
     align-items: center;
 
-    width: 95%;
+    width: 90%;
     margin: 1em auto;
 }
 .experiencie__box:nth-child(2n+1) {
@@ -209,7 +209,7 @@ https://en.bem.info/methodology/quick-start/ */
 }
 .experience__img {
     width: 700px;
-    height: 500px;
+    height: 450px;
 }
 .experience__info {
     width: 30%;
@@ -237,12 +237,62 @@ https://en.bem.info/methodology/quick-start/ */
     color: #FFFFFF;
 }
 
-
-
 /*Contato*/
 
-section.formcontato{
+.formcontato {
+    background-color: tomato;
+}
+.formcontato__contacto {
+    padding-top: 1em;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
 
+}
+.formcontato__esquerda {
+    width: 40%;
+}
+.formcontato__text {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+.formcontato__title, .formcontato__subtext {
+    color: #464646;
+}
+.formcontato__title {
+    font-size: 32px;
+    margin-top: 0;
+}
+.formcontato__subtext {
+    margin: 0;
+    font-size: 16px;
+    font-weight: normal;
+}
+.formcontato__form {
+    display: flex;
+    flex-direction: column;
+}
+.formcontato__text .formcontato__input {
+    width: 656px;
+    height: 56px;
+    margin: 1em 0;
+}
+.formcontato__text .formcontato__textarea {
+    width: 656px;
+    height: 133px;
+    margin: 1em 0;
+}
+.formcontato__text .formcontato__botao {
+    width: 165px;
+    height: 51px;
+    margin-top: 1em;
+    
+    background-color: var(--botao);
+    border: none;
+    color: #FFFFFF;
+    font-size: 16px;
 }
 
 /*footeer*/
